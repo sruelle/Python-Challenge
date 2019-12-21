@@ -1,10 +1,9 @@
 #Dependencies
 import pandas as pd
 
-#name of the csv file
-election_file = 'election_data2.csv'
 
-
+#name the file
+election_file =(".."/"Resources/election_data2.csv")
 
 #Use Pandas to read data
 election_file_pd =pd.read_csv(election_file)
@@ -15,7 +14,7 @@ total = election_file_pd["Voter Id"].sum()
 total
 
 # the unique method shows every element of the series that appears only once
-unique = election_file_pd["Canidadate"].unique()
+unique = election_file_pd["Candidate"].unique()
 unique
 
 # the value_counts method counts the uniques values in a column
