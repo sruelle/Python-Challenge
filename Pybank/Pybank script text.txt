@@ -79,6 +79,3 @@ print (f"Total Change: $ {totalChange}")
 print(f"Average Change: $ {averageChange}")
 print(f"Greatest Increase in Profits: ${greatIncrease}")
 print(f"Greatest Decrease in Profits: -${abs(greatDecrease)}")
-
-
-
