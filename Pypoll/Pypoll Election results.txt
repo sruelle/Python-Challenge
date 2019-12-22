@@ -1,0 +1,11 @@
+Election Results
+----------------
+Total Votes: 1048575
+----------------
+Khan        661583
+Correy      209046
+Li          146360
+O'Tooley     31586
+Name: Candidate, dtype: int64
+
+I realized that my csv file is not the correct size. It is a the max for excel lines. I am trying to figure out how to upload/copy the real large files to get the correct data. 
