@@ -10,17 +10,19 @@ election_file_pd = pd.read_csv(election_file)
 print (election_file_pd)
 #Print(dataframename.head())
 
-# The sum method adds every entry in the series
-#total = election_file_pd["Voter Id"].sum()
-#total
+#Counts the number of votes made
+count = election_file_pd["Voter ID"].value_counts()
+total = count.sum()
+print (total)
 
 # the unique method shows every element of the series that appears only once
-#unique = election_file_pd["Candidate"].unique()
-#unique
+unique = election_file_pd["Candidate"].unique()
+print (unique)
 
 # the value_counts method counts the uniques values in a column
-#count = election_file_pd["Candidate"].value_counts()
-#count
+count = election_file_pd["Candidate"].value_counts()
+print (count)
+
 
 
 
